@@ -1,281 +1,323 @@
 export const clinic = {
-  // === IDENTIDAD ===
-  name: "Centro Estética CyM",
-  logo: "/images/logo.jpg" as string | null,
-  tagline: "Tu Centro de Belleza en Puertollano",
-  description: "Centro Estética CyM es un centro de belleza integral en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados para realzar tu belleza natural.",
-
-  // === PALETA (Elegante/Spa) ===
+  name: "Belleza Zen By Rosa López Estetica Unisex y Masajista Masaje Bioenergético y LPG ( Medicina Alternativa Avanzada Unisex)",
+  logo: "/images/logo.png",
+  tagline: "Belleza y bienestar integral en Albacete",
+  description: "Belleza Zen By Rosa López es tu centro de estética y medicina alternativa avanzada unisex en Albacete. Especializados en masaje bioenergético, tratamientos LPG con resultados visibles, depilación con cera, tratamientos faciales y corporales. Con 4.8 estrellas en Google y 38 reseñas, Rosa López te ofrece una experiencia personalizada que reequilibra cuerpo, mente y emociones. Descubre la combinación perfecta entre belleza y bienestar.",
   colors: {
-    primary: "#C9A86C",      // Dorado elegante
-    secondary: "#2D2D2D",    // Gris sofisticado
-    accent: "#D4A574",       // Rosa champán
-    neutral: "#FAF8F5",      // Crema cálido
+    primary: "#f64a66",
+    secondary: "#4a161f",
+    accent: "#fbe8e7",
+    neutral: "#fef1f3"
   },
-
-  // === CONTACTO ===
-  phone: "629 61 04 71",
-  whatsapp: "+34629610471",
+  phone: "619 68 07 38",
+  whatsapp: "+34619680738",
   whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de estética.",
-  email: "info@esteticacym.es",
-
-  // === UBICACIÓN ===
+  email: "",
   address: {
-    street: "C. Numancia, 40",
-    city: "Puertollano",
-    province: "Ciudad Real",
-    postalCode: "13500",
-    country: "España",
+    street: "Rosa López Estética Avanzada Unisex, Calle Palmas de Gran Canarias, 26, bajo dch, 02003 Albacete, España",
+    city: "Albacete",
+    province: "",
+    postalCode: "02003",
+    country: "España"
   },
-  googleMapsUrl: "https://maps.google.com/?q=C.+Numancia+40+Puertollano",
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.5!2d-4.1078!3d38.6872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d1f1a8a8a8a8a%3A0x0!2sC.+Numancia%2C+40%2C+13500+Puertollano!5e0!3m2!1ses!2ses!4v1",
-  coordinates: { lat: 38.6872, lng: -4.1078 },
-
-  // === HORARIOS ===
+  googleMapsUrl: "https://maps.google.com/?cid=7712701457666830353&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  googleMapsEmbed: "https://maps.google.com/maps?q=Belleza%20Zen%20By%20Rosa%20L%C3%B3pez%20Estetica%20Unisex%20y%20Masajista%20Masaje%20Bioenerg%C3%A9tico%20y%20LPG%20(%20Medicina%20Alternativa%20Avanzada%20Unisex)%20%4038.9945%2C-1.86023&z=16&output=embed",
+  coordinates: {
+    lat: 38.9945,
+    lng: -1.86023
+  },
   schedule: [
-    { days: "Lunes - Viernes", hours: "10:00 - 20:00" },
-    { days: "Sábado", hours: "Cerrado" },
-    { days: "Domingo", hours: "Cerrado" },
+    {
+      days: "Lunes - Viernes",
+      hours: "09:00 - 20:00"
+    },
+    {
+      days: "Sábado",
+      hours: "Consultar"
+    },
+    {
+      days: "Domingo",
+      hours: "Cerrado"
+    }
   ],
-
-  // === REDES SOCIALES ===
   social: {
-    instagram: "https://www.instagram.com/centrodeesteticacym/",
-    facebook: "https://www.facebook.com/centrodeesteticacym/",
-    linkedin: null as string | null,
-    tiktok: null as string | null,
+    instagram: null,
+    facebook: null,
+    linkedin: null,
+    tiktok: null
   },
-
-  // === RESEÑAS GOOGLE ===
   reviews: {
-    rating: 4.7,
-    count: 190,
-    url: "#",
+    rating: 4.8,
+    count: 38,
+    url: "https://maps.google.com/?cid=7712701457666830353&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
     featured: [
       {
-        author: "Eva León",
+        author: "Ana Isabel Tébar Villanueva",
         rating: 5,
-        text: "Increíble trabajo de micropigmentación. El resultado es muy natural y el trato inmejorable. Sin duda volveré para más tratamientos.",
-        date: "hace 2 semanas",
+        text: "Rosa es encantadora, muy buena profesional. Le encanta su trabajo y eso lo transmite a sus clientes. Recomiendo todos sus tratamientos, en especial el masaje bioenergético que te reequilibra física, mental y emocionalmente. Recomendado también el láser LPG con unos resultados alucinantes!!",
+        date: "Hace un año"
       },
       {
-        author: "Javier Padilla",
+        author: "Lucia Arraez",
         rating: 5,
-        text: "Excelente profesionalidad en todos los tratamientos. Las instalaciones son muy modernas y el ambiente muy relajante.",
-        date: "hace 1 mes",
+        text: "He ido dos veces para un tratamiento de LPG y al final compré el bono... Los resultados se van notando muy rápido y además Rosa es un amor, se nota que le gusta su trabajo! El tiempo que vas se preocupa mucho por ti y no sólo en darte ese tratamiento.",
+        date: "Hace 2 años"
       },
       {
-        author: "Melanie Ponce",
+        author: "Teresa González Ponce",
         rating: 5,
-        text: "Me encantó el resultado del microblading. Quedé muy satisfecha con el trabajo realizado. Muy recomendable.",
-        date: "hace 1 mes",
+        text: "Trato muy amable y profesional por parte de Rosa. En mi caso solo he ido para depilación con cera con muy buenos resultados, pero ofrece muchos más servicios, que seguro merecen la pena. La recomiendo 100%",
+        date: "Hace un año"
       },
       {
-        author: "María Teresa Salguero",
+        author: "Daniela Ghirardato",
         rating: 5,
-        text: "El mejor centro de estética de Puertollano. Tratamientos de calidad y atención personalizada. Volveré seguro.",
-        date: "hace 2 meses",
-      },
-    ],
+        text: "Totalmente recomendable. Rosa super amable y profesional, trato 10 de 10. Sus productos se notan que son buenos porque no se me ha irritado la piel ni ha sido tan doloroso como en otros sitios.",
+        date: "Hace un año"
+      }
+    ]
   },
-
-  // === SERVICIOS ===
   services: [
     {
-      id: "micropigmentacion",
-      name: "Micropigmentación",
-      description: "Técnica avanzada de maquillaje semipermanente para cejas, labios y ojos. Resultados naturales y duraderos que realzan tu belleza.",
-      benefits: ["Resultados naturales", "Larga duración", "Mínimo mantenimiento"],
-      icon: "Sparkles",
+      id: "masaje-bioenergetico",
+      name: "Masaje Bioenergético",
+      description: "Nuestro tratamiento estrella que reequilibra tu energía física, mental y emocional. A través de técnicas avanzadas de medicina alternativa, trabajamos los bloqueos energéticos para restaurar tu bienestar integral. Una experiencia transformadora que va mucho más allá del masaje tradicional.",
+      benefits: [
+        "Reequilibrio físico, mental y emocional completo",
+        "Liberación de bloqueos energéticos y tensiones profundas",
+        "Sensación de renovación y armonía interior duradera"
+      ],
+      icon: "Heart"
     },
     {
-      id: "microblading",
-      name: "Microblading de Cejas",
-      description: "Técnica pelo a pelo para cejas perfectamente definidas. Efecto hiperrealista que simula el vello natural.",
-      benefits: ["Efecto pelo a pelo", "Cejas definidas", "Aspecto natural"],
-      icon: "Feather",
+      id: "tratamiento-lpg",
+      name: "Tratamiento LPG",
+      description: "Tecnología LPG de última generación para resultados corporales alucinantes. Este tratamiento no invasivo trabaja la celulitis, reafirma la piel y remodela tu silueta de forma natural. Los resultados se notan muy rápido, desde las primeras sesiones verás cambios visibles en tu cuerpo.",
+      benefits: [
+        "Resultados visibles y rápidos desde la primera sesión",
+        "Reducción efectiva de celulitis y reafirmación cutánea",
+        "Remodelación corporal natural sin cirugía"
+      ],
+      icon: "Zap"
     },
     {
-      id: "depilacion-laser",
-      name: "Depilación Láser",
-      description: "Eliminación definitiva del vello con tecnología láser de última generación. Tratamientos seguros y efectivos.",
-      benefits: ["Resultados permanentes", "Sin dolor", "Piel suave"],
-      icon: "Zap",
+      id: "depilacion-cera",
+      name: "Depilación con Cera",
+      description: "Depilación profesional con cera de alta calidad que respeta tu piel. Utilizamos productos premium que minimizan el dolor y evitan irritaciones. Técnica depurada que garantiza resultados impecables y una piel suave durante semanas.",
+      benefits: [
+        "Productos de alta calidad que no irritan la piel",
+        "Menos dolor comparado con otros centros",
+        "Resultados duraderos y piel suave por semanas"
+      ],
+      icon: "Sparkles"
     },
     {
       id: "tratamientos-faciales",
       name: "Tratamientos Faciales",
-      description: "Cuidados personalizados para cada tipo de piel. Hidratación profunda, antiedad y luminosidad para un rostro radiante.",
-      benefits: ["Piel rejuvenecida", "Hidratación profunda", "Luminosidad"],
-      icon: "Flower2",
+      description: "Cuidados faciales personalizados según las necesidades específicas de tu piel. Desde hidratación profunda hasta tratamientos antiedad, utilizamos productos profesionales de última generación. Cada tratamiento está diseñado para devolver luminosidad, firmeza y juventud a tu rostro.",
+      benefits: [
+        "Protocolos personalizados para cada tipo de piel",
+        "Productos profesionales de máxima calidad",
+        "Resultados visibles en luminosidad y textura"
+      ],
+      icon: "Flower2"
     },
     {
       id: "tratamientos-corporales",
-      name: "Tratamientos Corporales",
-      description: "Tratamientos reductores, reafirmantes y anticelulíticos. Moldea tu silueta con las técnicas más avanzadas.",
-      benefits: ["Reduce centímetros", "Reafirma la piel", "Elimina celulitis"],
-      icon: "Heart",
+      name: "Tratamientos Corporales Reductores",
+      description: "Programas corporales completos que combinan técnicas manuales y tecnología avanzada. Tratamientos reductores, reafirmantes y anticelulíticos personalizados para alcanzar tus objetivos. Trabajamos de forma integral para transformar tu silueta con resultados duraderos.",
+      benefits: [
+        "Combinación de técnicas manuales y tecnología avanzada",
+        "Programas personalizados según tus objetivos",
+        "Transformación visible y medible de tu silueta"
+      ],
+      icon: "Zap"
+    },
+    {
+      id: "cuidado-capilar",
+      name: "Cuidado Capilar",
+      description: "Tratamientos capilares profesionales para revitalizar y fortalecer tu cabello. Desde hidratación profunda hasta tratamientos reparadores, cuidamos tu pelo con productos de alta gama. Recupera el brillo, la fuerza y la salud de tu melena.",
+      benefits: [
+        "Tratamientos reparadores e hidratantes intensivos",
+        "Productos profesionales de alta gama",
+        "Cabello visiblemente más sano, fuerte y brillante"
+      ],
+      icon: "Sparkles"
     },
     {
       id: "manicura-pedicura",
       name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con esmaltes de alta calidad. Uñas perfectas con diseños personalizados.",
-      benefits: ["Uñas perfectas", "Manos cuidadas", "Diseños exclusivos"],
-      icon: "Hand",
+      description: "Cuidado completo y profesional de manos y pies con atención al detalle. Utilizamos esmaltes de larga duración y productos que cuidan la salud de tus uñas. Un momento de relax mientras embellecemos tus manos y pies con acabados impecables.",
+      benefits: [
+        "Acabados perfectos y duraderos",
+        "Productos que cuidan la salud de tus uñas",
+        "Experiencia relajante y resultados profesionales"
+      ],
+      icon: "Hand"
     },
     {
-      id: "extensiones-pestanas",
-      name: "Extensiones de Pestañas",
-      description: "Mirada impactante con extensiones de pestañas pelo a pelo. Efecto natural o dramático según tu preferencia.",
-      benefits: ["Mirada intensa", "Efecto natural", "Sin máscara"],
-      icon: "Eye",
-    },
-    {
-      id: "maquillaje-profesional",
-      name: "Maquillaje Profesional",
-      description: "Maquillaje para eventos especiales, novias y sesiones fotográficas. Realza tu belleza para cada ocasión.",
-      benefits: ["Look personalizado", "Alta duración", "Acabado profesional"],
-      icon: "Palette",
-    },
+      id: "medicina-alternativa",
+      name: "Medicina Alternativa Avanzada",
+      description: "Terapias holísticas que trabajan el equilibrio integral de tu organismo. Combinamos diferentes técnicas de medicina alternativa para abordar desequilibrios físicos y emocionales. Un enfoque único que complementa perfectamente nuestros tratamientos estéticos.",
+      benefits: [
+        "Enfoque holístico del bienestar integral",
+        "Tratamiento de desequilibrios físicos y emocionales",
+        "Complemento perfecto para resultados duraderos"
+      ],
+      icon: "Heart"
+    }
   ],
-
-  // === PROCESO ===
   process: [
     {
       step: 1,
-      title: "Contacta",
-      description: "Solicita tu cita de consulta inicial por teléfono o WhatsApp",
+      title: "Contacta con Nosotros",
+      description: "Llama al 619 68 07 38 o envía un WhatsApp para reservar tu cita. Te atenderemos personalmente para conocer tus necesidades y encontrar el mejor momento para ti."
     },
     {
       step: 2,
-      title: "Consulta",
-      description: "Analizamos tus necesidades y diseñamos el tratamiento ideal para ti",
+      title: "Consulta Personalizada",
+      description: "Rosa analizará tu caso específico, ya sea estético o de bienestar energético. Diseñaremos juntos el tratamiento o combinación de tratamientos más adecuado para alcanzar tus objetivos."
     },
     {
       step: 3,
-      title: "Tratamiento",
-      description: "Realizamos el tratamiento con las técnicas más avanzadas y productos de calidad",
+      title: "Tu Tratamiento",
+      description: "Disfruta de tu sesión en un ambiente relajante con productos premium y tecnología avanzada. Rosa se preocupa por ti durante todo el proceso, asegurando tu comodidad y los mejores resultados."
     },
     {
       step: 4,
-      title: "Resultados",
-      description: "Disfruta de resultados espectaculares y un seguimiento personalizado",
-    },
+      title: "Resultados Visibles",
+      description: "Experimenta cambios notables desde las primeras sesiones. Te ofrecemos seguimiento personalizado y recomendaciones para mantener y potenciar los resultados conseguidos."
+    }
   ],
-
-  // === POR QUÉ ELEGIRNOS ===
   whyUs: [
     {
-      title: "Especialistas en Micropigmentación",
-      description: "Técnicas avanzadas de micropigmentación y microblading con resultados naturales y duraderos",
-      icon: "Award",
+      title: "Excelencia Reconocida: 4.8★ en Google",
+      description: "38 reseñas de clientes reales avalan nuestro trabajo en Belleza Zen By Rosa López. Nuestras clientas destacan los resultados alucinantes del LPG, el poder transformador del masaje bioenergético y la profesionalidad en cada tratamiento. La confianza de quienes ya nos han probado es nuestra mejor carta de presentación.",
+      icon: "Sparkles"
     },
     {
-      title: "Tecnología de Vanguardia",
-      description: "Equipos de última generación para tratamientos más efectivos y seguros",
-      icon: "Cpu",
+      title: "Pasión Genuina por Nuestro Trabajo",
+      description: "Rosa ama lo que hace y eso se transmite en cada sesión. No es solo un trabajo, es una vocación por ayudarte a sentirte mejor física y emocionalmente. El tiempo que pasas en nuestro centro, Rosa se preocupa genuinamente por ti, creando una experiencia cercana y profesional que marca la diferencia.",
+      icon: "Heart"
     },
     {
-      title: "Atención Personalizada",
-      description: "Cada clienta recibe un tratamiento único adaptado a sus necesidades y deseos",
-      icon: "UserCheck",
+      title: "Resultados Visibles y Rápidos",
+      description: "En Belleza Zen By Rosa López no hacemos promesas vacías. Nuestros tratamientos LPG muestran cambios desde las primeras sesiones, la depilación con cera es menos dolorosa y más efectiva, y el masaje bioenergético reequilibra tu energía de forma notable. Los resultados hablan por sí solos.",
+      icon: "Zap"
     },
     {
-      title: "Valoración 4.7 Estrellas",
-      description: "190 clientas satisfechas nos avalan con excelentes valoraciones en Google",
-      icon: "Star",
-    },
+      title: "Enfoque Integral Único en Albacete",
+      description: "Somos el único centro en Albacete que combina estética avanzada con medicina alternativa. No solo embellecemos tu exterior con tecnología LPG y tratamientos profesionales, sino que trabajamos tu bienestar energético, mental y emocional. Una experiencia completa que transforma tu vida desde dentro hacia fuera.",
+      icon: "Flower2"
+    }
   ],
-
-  // === EQUIPO ===
   team: [
     {
-      name: "Centro Estética CyM",
-      role: "Especialistas en Micropigmentación",
+      name: "Rosa López",
+      role: "Directora y Especialista en Estética y Medicina Alternativa",
       image: "/images/team/placeholder.jpg",
-      bio: "Profesionales apasionadas por la belleza y el cuidado personal. Con años de experiencia en micropigmentación, microblading y tratamientos estéticos, nos dedicamos a realzar la belleza natural de cada clienta.",
-    },
+      bio: "Profesionales apasionadas por la belleza y el cuidado personal. En Belleza Zen By Rosa López Estetica Unisex y Masajista Masaje Bioenergético y LPG ( Medicina Alternativa Avanzada Unisex) nos dedicamos a realzar la belleza natural de cada clienta con tratamientos de calidad."
+    }
   ],
-
-  // === GALERÍA ===
   gallery: [
-    { src: "/images/gallery/local-fuera.webp", alt: "Fachada del Centro Estética CyM" },
-    { src: "/images/gallery/local-dentro.webp", alt: "Interior del centro - Recepción" },
-    { src: "/images/gallery/clinica-dentro1.webp", alt: "Sala de tratamientos" },
+    {
+      src: "/images/gallery/1.webp",
+      alt: "Belleza Zen By Rosa López Estetica Unisex y Masajista Masaje Bioenergético y LPG ( Medicina Alternativa Avanzada Unisex) - Imagen 1"
+    },
+    {
+      src: "/images/gallery/2.webp",
+      alt: "Belleza Zen By Rosa López Estetica Unisex y Masajista Masaje Bioenergético y LPG ( Medicina Alternativa Avanzada Unisex) - Imagen 2"
+    },
+    {
+      src: "/images/hero.webp",
+      alt: "Belleza Zen By Rosa López Estetica Unisex y Masajista Masaje Bioenergético y LPG ( Medicina Alternativa Avanzada Unisex) - Imagen 3"
+    },
+    {
+      src: "/images/gallery/4.webp",
+      alt: "Belleza Zen By Rosa López Estetica Unisex y Masajista Masaje Bioenergético y LPG ( Medicina Alternativa Avanzada Unisex) - Imagen 4"
+    },
+    {
+      src: "/images/gallery/5.webp",
+      alt: "Belleza Zen By Rosa López Estetica Unisex y Masajista Masaje Bioenergético y LPG ( Medicina Alternativa Avanzada Unisex) - Imagen 5"
+    },
+    {
+      src: "/images/gallery/6.webp",
+      alt: "Belleza Zen By Rosa López Estetica Unisex y Masajista Masaje Bioenergético y LPG ( Medicina Alternativa Avanzada Unisex) - Imagen 6"
+    },
+    {
+      src: "/images/gallery/7.webp",
+      alt: "Belleza Zen By Rosa López Estetica Unisex y Masajista Masaje Bioenergético y LPG ( Medicina Alternativa Avanzada Unisex) - Imagen 7"
+    }
   ],
-
-  // === FAQ ===
   faq: [
     {
-      question: "¿Cuánto dura la micropigmentación?",
-      answer: "La micropigmentación puede durar entre 1 y 3 años dependiendo del tipo de piel, cuidados posteriores y la zona tratada. Ofrecemos retoques para mantener el resultado óptimo.",
+      question: "¿Qué es el masaje bioenergético y qué beneficios tiene?",
+      answer: "El masaje bioenergético es nuestra especialidad estrella en Belleza Zen By Rosa López. Es una técnica de medicina alternativa avanzada que trabaja sobre los bloqueos energéticos del cuerpo para reequilibrarte física, mental y emocionalmente. Nuestros clientes experimentan una profunda sensación de renovación, liberación de tensiones y armonía interior que se mantiene en el tiempo. Es ideal para personas que buscan algo más que un tratamiento estético convencional."
     },
     {
-      question: "¿Es doloroso el microblading de cejas?",
-      answer: "El procedimiento es prácticamente indoloro gracias a la aplicación de crema anestésica tópica. La mayoría de clientas describen la sensación como un ligero cosquilleo.",
+      question: "¿Cuándo veré resultados con el tratamiento LPG?",
+      answer: "Los resultados del tratamiento LPG en Belleza Zen By Rosa López se notan muy rápido, incluso desde la primera sesión. Nuestras clientas reportan cambios visibles en reducción de celulitis y reafirmación de la piel en pocas semanas. Para resultados óptimos y duraderos, recomendamos un programa completo que diseñaremos según tus objetivos específicos. Muchas de nuestras clientas deciden adquirir bonos tras ver los resultados iniciales."
     },
     {
-      question: "¿Cuántas sesiones necesito para la depilación láser?",
-      answer: "Generalmente se necesitan entre 6 y 8 sesiones espaciadas cada 4-6 semanas para obtener resultados óptimos. El número exacto depende del tipo de piel y vello.",
+      question: "¿La depilación con cera duele mucho?",
+      answer: "En Belleza Zen By Rosa López utilizamos ceras de alta calidad y técnicas profesionales que minimizan significativamente el dolor. Nuestras clientas nos comentan que la depilación es mucho menos dolorosa que en otros centros y que su piel no se irrita gracias a los productos premium que empleamos. Rosa tiene años de experiencia perfeccionando la técnica para que tu experiencia sea lo más cómoda posible con resultados impecables."
     },
     {
-      question: "¿Qué cuidados necesito después de un tratamiento facial?",
-      answer: "Recomendamos evitar el sol directo, usar protección solar SPF50 y seguir la rutina de cuidados que te indicamos según tu tipo de piel.",
+      question: "¿Qué diferencia a Belleza Zen de otros centros de estética?",
+      answer: "Belleza Zen By Rosa López combina estética avanzada con medicina alternativa, algo único en Albacete. No solo trabajamos tu belleza exterior con tratamientos como LPG o depilación, sino que ofrecemos un enfoque integral que incluye tu bienestar energético y emocional a través del masaje bioenergético. Rosa se preocupa genuinamente por cada cliente, dedicando tiempo y atención personalizada. Nuestro 4.8 de valoración en Google con 38 reseñas refleja el amor que ponemos en cada tratamiento."
     },
     {
-      question: "¿Ofrecéis tratamientos para novias?",
-      answer: "Sí, tenemos packs especiales para novias que incluyen tratamientos faciales, maquillaje de prueba y el día de la boda, manicura y más.",
-    },
-    {
-      question: "¿Las extensiones de pestañas dañan mis pestañas naturales?",
-      answer: "No, cuando se aplican correctamente por profesionales cualificados, las extensiones no dañan las pestañas naturales. Usamos adhesivos de alta calidad y técnicas seguras.",
-    },
-    {
-      question: "¿Cuánto dura una sesión de tratamiento facial?",
-      answer: "Dependiendo del tratamiento, las sesiones duran entre 45 y 90 minutos. Incluimos tiempo para la consulta inicial y recomendaciones personalizadas.",
+      question: "¿Ofrecéis servicios para hombres?",
+      answer: "Sí, Belleza Zen By Rosa López es un centro unisex. Todos nuestros tratamientos están disponibles tanto para mujeres como para hombres. El masaje bioenergético, tratamientos LPG, depilación y cuidados faciales son igual de efectivos independientemente del género. Cada vez más hombres confían en nosotros para su cuidado personal y bienestar integral."
     },
     {
       question: "¿Necesito cita previa?",
-      answer: "Sí, recomendamos siempre reservar cita previa para garantizar la disponibilidad y poder dedicarte el tiempo que mereces. Puedes reservar por teléfono o WhatsApp.",
+      answer: "Sí, en Belleza Zen By Rosa López trabajamos con cita previa para garantizarte atención personalizada y exclusiva. Puedes reservar tu cita llamando al 619 68 07 38 o por WhatsApp. Así nos aseguramos de dedicarte todo el tiempo necesario sin prisas ni interrupciones, algo que nuestros clientes valoran enormemente."
     },
+    {
+      question: "¿Qué productos utilizáis en los tratamientos?",
+      answer: "En Belleza Zen By Rosa López trabajamos exclusivamente con productos profesionales de alta gama. Seleccionamos marcas premium que garantizan resultados efectivos y respetan la salud de tu piel. Nuestras clientas notan la diferencia en la calidad: no experimentan irritaciones y los resultados son superiores. La inversión en productos de calidad es parte fundamental de nuestra filosofía de trabajo."
+    },
+    {
+      question: "¿Hacéis bonos o packs de tratamientos?",
+      answer: "Sí, en Belleza Zen By Rosa López ofrecemos bonos para nuestros tratamientos más demandados como el LPG. Los bonos te permiten acceder a mejores precios y aseguran la continuidad necesaria para resultados óptimos. Muchas clientas comienzan con sesiones sueltas y, al comprobar los resultados rápidos, deciden adquirir bonos. Te asesoraremos sobre la mejor opción según tus objetivos y presupuesto."
+    }
   ],
-
-  // === SEO ===
   seo: {
-    titleTemplate: "%s | Centro Estética CyM - Belleza en Puertollano",
-    defaultTitle: "Centro Estética CyM | Tu Centro de Belleza en Puertollano",
-    defaultDescription: "Centro de estética en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados. Cita previa: 629 61 04 71.",
+    titleTemplate: "%s | Belleza Zen By Rosa López Estetica Unisex y Masajista Masaje Bioenergético y LPG ( Medicina Alternativa Avanzada Unisex)",
+    defaultTitle: "Belleza Zen By Rosa López | Estética y Masaje Bioenergético Albacete",
+    defaultDescription: "Centro de estética y medicina alternativa en Albacete. Especialistas en masaje bioenergético, tratamientos LPG, depilación y cuidados faciales. 4.8★ en Google. ☎ 619 68 07 38",
     keywords: [
-      "centro estética Puertollano",
-      "micropigmentación Puertollano",
-      "microblading cejas Puertollano",
-      "depilación láser Puertollano",
-      "tratamientos faciales Puertollano",
-      "extensiones pestañas Puertollano",
-      "maquillaje profesional",
-      "manicura pedicura",
-      "tratamientos corporales",
-      "belleza Puertollano",
-      "Centro Estética CyM",
-      "estética Ciudad Real",
+      "masaje bioenergético Albacete",
+      "tratamiento LPG Albacete",
+      "depilación cera Albacete",
+      "estética Albacete",
+      "medicina alternativa Albacete",
+      "Belleza Zen Rosa López",
+      "centro estética unisex Albacete",
+      "tratamientos corporales Albacete",
+      "masajista Albacete",
+      "belleza integral Albacete",
+      "reafirmante anticelulítico Albacete",
+      "bienestar energético Albacete"
     ],
-    ogImage: "/og-image.jpg",
+    ogImage: "/og-image.jpg"
   },
-
-  // === LEGAL ===
   legal: {
-    companyName: "Centro Estética CyM",
+    companyName: "Belleza Zen By Rosa López Estetica Unisex y Masajista Masaje Bioenergético y LPG ( Medicina Alternativa Avanzada Unisex)",
     cif: "",
-    registeredAddress: "C. Numancia, 40, 13500 Puertollano, Ciudad Real",
+    registeredAddress: "Rosa López Estética Avanzada Unisex, Calle Palmas de Gran Canarias, 26, bajo dch, 02003 Albacete, España, Albacete"
   },
-
-  // === UI COPY (driven by clinic type) ===
-  heroHeadline: ["Tu Centro de", "Belleza", "en Puertollano"],
-  heroDescription: "Realza tu belleza natural con tratamientos de micropigmentación, microblading y estética avanzada. Profesionales cualificadas y tecnología de vanguardia.",
-  specialty: "Micropigmentación",
+  heroHeadline: [
+    "Tu Centro de",
+    "Belleza",
+    "en Albacete"
+  ],
+  heroDescription: "En Belleza Zen By Rosa López encontrarás un espacio único en Albacete donde la estética avanzada se une con la medicina alternativa. Nuestros tratamientos LPG, masajes bioenergéticos y servicios de depilación están diseñados para transformar tu bienestar físico, mental y emocional con resultados alucinantes.",
+  specialty: "Masaje Bioenergético y LPG",
   ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para brillar?",
-  ctaDescription: "Da el primer paso hacia tu mejor versión. Pide tu cita ahora y nuestro equipo te asesorará de forma personalizada.",
+  ctaHeadline: "¿Lista para tu transformación integral?",
+  ctaDescription: "Reserva tu cita en Belleza Zen By Rosa López y descubre tratamientos que van más allá de la estética. Resultados visibles que se notan desde la primera sesión.",
   statsLabel: "Clientas",
   schemaType: "BeautySalon",
   sectionCopy: {
@@ -300,8 +342,8 @@ export const clinic = {
     locationTitle: "Cómo llegar",
     teamLabel: "Nuestro Equipo",
     teamTitle: "Profesionales especializadas",
-    teamDescription: "Experiencia y pasión al servicio de tu belleza",
-  },
+    teamDescription: "Experiencia y pasión al servicio de tu belleza"
+  }
 }
 
 export type Clinic = typeof clinic
